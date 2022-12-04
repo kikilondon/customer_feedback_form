@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Customer product feedback form</title>
+        <meta name="description" content="Customer Feedback Form for website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+            </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="main.js" async defer></script>
+        <H1 class="title">Customer Feedback Form<H1>
+        <!--<iframe name="hiddenFrame" class="hide"></iframe>-->
+        <br>
+        <form id="myForm" class="form">
+            <div>
+                <p id="description">Thank you for taking time to provide feedback. We appreciate hearing from you and will review your comments carefully.</p>
+                <form id= "survey-form"></form></div> 
+                <br>
+                
+                <hr>
+                <br>
+                <p id="description">Would you recommend it to your friends and colleagues?</p>
+                <br>
+                 <div class="radio"><label for="Yes">
+                <input type="radio" name="yes-no" value= "Yes">Yes</label>
+            
+                <label for="No">
+                <input type="radio" name="yes-no"value="NO">No</label></div><br>
+                <br>
+                <p id="description">Did our product meet your expectations?</p>
+                <br>
+                 <div class="radio1"><label for="Yes">
+                <input type="radio" name="yes-no" value= "Yes">Yes</label>
+                <label for="No">
+                <input type="radio" name="yes-no"value="NO">No</label>
+                </div><br>
+                <br>
+                
+                
+                <p id="description">How satisfied are you with our products overall?</p>
+                <br>
+
+
+                 <div class="checkboxes"><label for="Very satisfied"><input class="checkbox" type="checkbox" name="sat" value="Very satisfied">Very satisfied</label>
+                <br>
+                    <label for="Satisfied"><input class="checkbox" type="checkbox" name="sat" value="Satisfied">Satisfied</label>
+                    <br>
+                
+                      <label for="Neutral"><input class="checkbox" type="checkbox" name="sat" value="Neutral">Neutral</label>
+                      <br>
+                        <label for="Unsatisfied"><input class="checkbox" type="checkbox" name="sat" value="Unsatisfied">Unsatisfied</label>
+                        <br>
+                          <label for="Very unsatisfied"><input class="checkbox" type="checkbox" name="sat" value="Very unsatisfied">Very unsatisfied</label>
+                          <br>
+                            <label for="N/A"><input class="checkbox" type="checkbox" name="sat" value="N/A">N/A</label></div>
+                <br>
+                <br>
+                <p id="description">Do you have any comment or suggestions to improve our product and service?</p>
+                <div class= "text-area">
+                <label for="my-text"></label>
+                <textarea id="my-text" name="comment" rows="5" placeholder="Type your comment here"></textarea>
+                </div>
+                <div class="result"><p id="result"></p></div>
+                <br>
+                <p id="description">Please leave your email address if you would like us to contact you regarding any questions.</p>
+                <br>
+            <div class="details">
+                 <label for="name" id="name-label">
+                    <input id="name" type="text" placeholder="First name" required>
+                    </label>
+
+                    <label for="surname" id="surname-label">
+                        <input id="surname" type="text" placeholder="Last name" required>
+                        </label>
+                   
+    
+                    <label for="email" id="email-label">
+                        <input name= "email" id="email" type="email" placeholder= "Your email" required>
+                        </label></div>
+                        <br>
+                  
+         <hr>
+        <br>
+                  <div class="button-container">
+                        <button  value="submit" type="submit" id="bt">Submit</button>
+                    </div>
+
+        </form>
+    </body>
+</html>
