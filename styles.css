@@ -78,6 +78,9 @@ hr {
     display: flex;
     margin: auto;
     justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 .details * {
@@ -85,7 +88,7 @@ hr {
     font-size: 16px;
     color: #5E5E5E;
     outline: none;
-    margin-right: 10px;
+   
 
 
 }
@@ -175,13 +178,14 @@ hr {
     justify-content: center;
     max-width: fit-content;
     margin: auto;
+    flex-wrap: 10px;
+    row-gap: 10px;
 
 }
 
 .checkbox {
     padding: 10px;
-    margin-right: 5px;
-    margin-left: 30px;
+ 
 
 }
 
