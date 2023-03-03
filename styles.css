@@ -178,8 +178,9 @@ hr {
     justify-content: center;
     max-width: fit-content;
     margin: auto;
-    flex-wrap: 10px;
+    flex-wrap: wrap;
     row-gap: 10px;
+    column-gap; 10px;
 
 }
 
